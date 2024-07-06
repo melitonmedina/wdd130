@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rock+Salt&display=swap");
+
+* {
+    margin: 0;
+}
+:root {
+    --primary-color: #46B1C9;
+    --secondary-color: #84C0C6;
+    --accent1-color: #BCC1BA;
+    --accent2-color: #9FB7B9 ;
+
+    --heading-font: "Rock salt", cursive;
+    --paragraph-font: "Open Sans", Sans-serif; 
+
+    --nav-background-color: #BCC1BA;
+    --nav-link-color: #48474c;
+    --nav-hover-link-color: #FF9999;
+    --nav-hover-background-color: #000000;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.header-links a:link,
+.header-links a:visited  {
+    color: var(--nav-link-color);
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero >img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    background-color: rgb(82, 80, 80);
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.hero-article {
+    background-color: var(--accent1-color);
+    opacity: 0.9;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+}
+
+article img {
+    float: right;
+    margin: 5px;
+}
+
+section img {
+    display: block;
+}
+
+.social-links a>img{
+    width: 50px;
+}
+
+.wwr-images img {
+    margin: 10px;
+}
